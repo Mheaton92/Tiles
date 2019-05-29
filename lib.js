@@ -35,7 +35,6 @@ var pages = {
     ["#","ab","Next"," More Results","*"],
     ["#","ba", "Back","To the Future","*"],
     // links
-    ["https://www.linkedin.com","~linkedin","Linkedn","Professional"],
     ["https://github.com","gh","Github","Repos"],
     // folders
     ["#","go","Themes","Colors"],
@@ -46,17 +45,17 @@ var pages = {
     ["#","mt","Code","~/hack.sh"],
   ],
   "Home":[ // Index page loads at and resets to on end of search or 'esc'
-    ["https://github.com/Boettner-eric/Tiles","ba","Back","To Github","*"],
-    ["~Github"], // example of reference
-    ["https://gmail.com","gm","Gmail","Inboxes","google"],
-    ["https://todoist.com/app#start","td","Todoist","Tasks"],
-    ["https://pcpartpicker.com","pc","PcParts","Pcpartpicker"],
+    ["https://protonmail.com","pm","mail","Inbox","proton"],
+    ["https://www.archlinux.org","al","Arch","Arch linux"],
+    ["https://reddit.com/","re2","Reddit","r/"],
+    ["https://www.keyhero.com/","type","KeyHero","Typing practice"],
+    ["https://www.amazon.com/","ama","Amazon","Get some shit."],
+    ["https://suckless.org/","suck","Suckless.org","Programs that suck less."],
     ["~News"],
     ["~Media"],
     ["~Networks"],
     ["~Code"],
     ["~Keyboards"],
-    ["https://icons8.com","ic","Icons8","Icon Set"],
     ["~Themes"],
   ],
   "Keyboards":[
@@ -95,11 +94,11 @@ var pages = {
     ["https://keycode.info","ct","Keycodes","Javascript"],
   ],
   "Networks":[
-    ["https://twitter.com","~twitter","Twitter","Internet News"],
-    ["https://facebook.com","fa","Facebook","Delete me"],
+    ["https://reddit.com/","re","Reddit","r/archlinux"],
+    ["https://reddit.com/","re","Reddit","r/bash"],
+    ["https://reddit.com/","re","Reddit","r/ProgrammerHumor"],
     ["https://reddit.com/","re","Reddit","r/unixporn"],
-    ["https://www.instagram.com","im","Instagram","Photos"],
-    ["~Linkedn"],
+    ["https://reddit.com/","re","Reddit","r/vim"],
     ["https://discordapp.com","ds","Discord","Chat Channels"],
   ],
   "News":[
@@ -167,7 +166,7 @@ function update_tiles(){ // for all tiles to load on start or other events
 }
 */
 
-var zip = "97202"; // changes when searching valid zips / or when zip is saved
+var zip = "15905"; // changes when searching valid zips / or when zip is saved
 var oldzip = "";
 var weather = ["@w","weather/01d","Weather","Updating...","weather"]; // default tile
 
